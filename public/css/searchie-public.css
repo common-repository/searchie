@@ -1,0 +1,13 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+/* .block__player{
+  width:100%;
+  height:100%;
+} */
+
+.sio-frontend-iframe-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; }
+.sio-frontend-iframe-container iframe, .sio-frontend-iframe-container object, .sio-frontend-iframe-container embed {
+  position: absolute; top: 0; left: 0; width: 100% !important; height: 100% !important;
+}

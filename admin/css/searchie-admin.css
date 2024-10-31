@@ -1,0 +1,280 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+#TB_ajaxContent {
+
+}
+.bootstrap-iso .badge-primary{
+  background-color: #0073AA;
+}
+.bootstrap-iso .btn-primary:hover {
+  background-color: #00A0D2;
+}
+.bootstrap-iso .btn-primary {
+  background-color: #0073AA;
+}
+.bootstrap-iso .page-link:hover{
+  background-color: #0073AA;
+  color:#fff;
+}
+.bootstrap-iso .btn-outline-secondary:hover{
+  background-color: #0073AA;
+  color:#fff;
+}
+.searchie-dashboard-left-content{
+    margin-top: 20px;
+}
+.searchie-dashboard-right-content{
+    margin-top: 20px;
+}
+.sio-widget-embed-button {
+  margin-top: 20px;
+}
+.bootstrap-iso .form-control-sm {
+  height: 25%;
+}
+.settings-wrapper .jumbotron{
+  padding: 30px;
+}
+.searchie-dashboard-content {
+  margin-left: 0 !important;
+}
+.searchie-dashboard-content li.list-group-item{
+  padding: 5px 10px;
+}
+.dashboard-list-container{
+  padding-left: 0px !important;
+}
+.dashboard_page_searchie-playlists #TB_ajaxContent{
+  width: 100% !important;
+  margin: 0 auto;
+  overflow: hidden;
+  padding:0px;
+  /* height: 100% !important; */
+  background-color: #F1F1F1;
+}
+
+.dashboard_page_searchie-media #TB_ajaxContent{
+  width: 100% !important;
+  margin: 0 auto;
+  overflow: hidden;
+  padding:0px;
+  /* height: 100% !important; */
+  background-color: #F1F1F1;
+}
+.dashboard_page_searchie-widgets #TB_ajaxContent{
+  width: 100% !important;
+  margin: 0 auto;
+  overflow: hidden;
+  padding:0px;
+  /* height: 100% !important; */
+  background-color: #F1F1F1;
+}
+.media-item{
+  background-color: #F1F1F1;
+  padding:10px;
+}
+.media-container .col-searchie-content{
+  padding-left:0px;
+}
+.widgets-container .col-searchie-content{
+  padding-left:0px;
+}
+
+.media-container {
+
+}
+.button-dashboard{
+  width:100%;
+  text-align: center;
+}
+.bootstrap-iso a:hover{
+  text-decoration: none;
+}
+.searchie-sidebar-profile .profile-details{
+  margin-bottom: 20px;
+}
+.searchie-sidebar-profile{
+  color:#fff;
+  width:100%;
+  color:#000000;
+}
+.searchie-sidebar-profile .profile-name{
+  font-size: 17px;
+}
+.searchie-sidebar-profile .api-profile{
+  font-size: 13px;
+  color:#C4C4C4;
+}
+.searchie-sidebar-profile .list-group li{
+  border-top: 1px solid #C4C4C4;
+  padding: 10px 0;
+  font-weight: bold;
+}
+.searchie-sidebar-profile .badge{
+  font-size: 13px;
+}
+.searchie-dashboard{
+
+}
+.searchie-dashboard .nav-item{
+  margin-bottom: 0;
+}
+.searchie-dashboard .nav-link{
+  color:#000;
+}
+.searchie-dashboard .nav-link:hover{
+  background-color: #DCDCDC;
+}
+.searchie-dashboard .active{
+  background-color: #DCDCDC;
+}
+.searchie-dashboard-content{
+  color:#000;
+}
+.searchie-dashboard-sidebar{
+  width:100%;
+}
+.searchie-dashboard-sidebar .navbar{
+  padding: 0;
+}
+.searchie-dashboard-sidebar .nav{
+  width:100%;
+}
+.searchie-dashboard-sidebar{
+  min-height:45vh !important;
+}
+.min-vh-90{
+  min-height: 85vh !important;
+}
+.bg-purple {
+  background: rgb(48,0,50);
+}
+.bg-gray {
+  background: rgb(74,74,74);
+}
+.bg-blue {
+  background: rgb(50,101,196);
+}
+.bg-red {
+  background: rgb(196,50,53);
+}
+.bg-white {
+  background-color: #fff;
+}
+/*login*/
+#searchie-login{
+  width: 460px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.searchie-login-form{
+  margin-top: 20px;
+  margin-left: 0;
+  padding: 26px 24px 46px;
+  font-weight: 400;
+  overflow: hidden;
+  background: #fff;
+}
+.searchie-login-submit{
+  width:100%;
+}
+/*login*/
+
+/*dashboard*/
+.file-container{
+  padding: 10px;
+  /* height: 370px;
+  overflow: auto; */
+}
+.tab-content{
+  background-color: #fff;
+}
+
+.cf-block__fields{
+  background-color: #fafafa;
+  border: 1px dotted;
+  padding: 20px;
+}
+
+.settings-wrapper .card{
+  padding:0px !important;
+}
+
+.set-global-widget{
+  margin-bottom:20px;
+}
+
+.bootstrap-iso .page-item.active .page-link{
+  background-color: #0073AA !important;
+  border-color: #0073AA !important;
+}
+.bootstrap-iso .page-item a {
+  color: #0073AA !important;
+}
+.bootstrap-iso .page-item.active .page-link {
+  color: #fff !important;
+}
+.bootstrap-iso .page-link:hover {
+  color: #fff !important;
+  background-color: #0073AA !important;
+}
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .searchie-dashboard-sidebar{
+    min-height: 0vh !important;
+  }
+  .searchie-sidebar-profile{
+    min-height: 30vh;
+  }
+}
